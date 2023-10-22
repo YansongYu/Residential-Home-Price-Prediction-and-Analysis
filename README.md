@@ -1,13 +1,25 @@
-# Residential-Home-Price-Prediction-and-Analysis
 
-This repository contains a machine learning project focused on predicting residential home prices based on various property attributes. The dataset, which comprises properties from Ames, Iowa, provides a comprehensive set of features describing different aspects of residential homes, making it an ideal candidate for in-depth analysis and modeling.
+# House Price Predictor
 
-# Key Highlights:
+## Problem Description
+This project is based on the Kaggle competition "House Prices - Advanced Regression Techniques". The objective is to predict the sales price for each house. With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, the challenge is to determine the final price of each home.
 
-- Extensive Exploratory Data Analysis (EDA) to understand the underlying patterns and correlations within the data.
-- Advanced feature engineering and preprocessing, including handling missing data, encoding categorical variables, and feature scaling.
-- Utilized machine learning techniques like Random Forest and Gradient Boosting Regressors to train and evaluate prediction models.
-- Fine-tuned models to achieve higher accuracy, aiding in more precise home price predictions.
-  
-# Objective:
-The primary goal of this project is to predict the sale price of residential homes, assisting real estate businesses, and potential homeowners in making informed decisions.
+## Dataset
+The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It offers an expanded and modernized alternative to the frequently-cited Boston Housing dataset.
+
+Note: Due to Kaggle's competition rules, the data is not included in this repository. You can acquire the dataset directly from the competition's data page. Once downloaded, place the data files (train.csv, test.csv, etc.) in the data/ directory of this repository.
+
+## Approach
+- Data Preprocessing: Handling missing values, encoding categorical variables, and performing necessary transformations.
+- Feature Engineering: Generating new features and transforming existing ones to better represent the underlying patterns in the data.
+- Modeling: Implementing advanced regression techniques like random forests to predict house prices.
+
+## How to Run
+1. Clone the repository.
+2. Ensure you have the required packages by running: `pip install -r requirements.txt`.
+3. Place your data in the `data/` directory.
+4. Navigate to the src/ directory and run the main script.
+
+## License
+This project is licensed under the MIT License. Ensure to follow the relevant rules of the Kaggle competition when using this code or data.
+

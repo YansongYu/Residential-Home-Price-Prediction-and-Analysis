@@ -2,7 +2,7 @@
 # House Price Predictor
 
 ## Problem Description
-This project is based on the Kaggle competition "House Prices - Advanced Regression Techniques". The objective is to predict the sales price for each house. With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, the challenge is to determine the final price of each home.
+This project is based on the Kaggle competition "House Prices - Advanced Regression Techniques"(https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data). The objective is to predict the sales price for each house. With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, the challenge is to determine the final price of each home.
 
 ## Dataset
 The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It offers an expanded and modernized alternative to the frequently-cited Boston Housing dataset.
